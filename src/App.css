@@ -30,6 +30,10 @@
   background-color: red;
   height: 20vh;
   margin: 0;
+  display: grid;
+  justify-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .midDiv{
   background-color: rgb(0, 0, 0);
@@ -37,25 +41,33 @@
   margin: 0;
   display: grid;
   justify-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .botDiv{
   background-color: rgb(47, 0, 255);
   height: 20vh;
   margin: 0;
+  display: grid;
+  justify-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .minusSpeed{
   background-color: aliceblue;
   border-radius: 50px;
   margin: 10px;
-  width: 20vh;
+  width: 100%;
   height: 20vh;
   grid-column: 1;
 }
 
 .Speed{
   background-image: url("../public/High.png");
-  background-size: 30vh;
+  background-size: 20vh;
+  background-position: 20%;
+  background-position-x: center;
   height: 30vh;
   width: 30vh;
   background-repeat: no-repeat;
@@ -67,7 +79,8 @@
   background-color: aliceblue;
   border-radius: 50px;
   margin: 10px;
-  width: 20vh;
+  width: 100%;
+  margin: 10px;
   height: 20vh;
   grid-column: 3;
 }
@@ -76,7 +89,7 @@
   background-color: aliceblue;
   border-radius: 50px;
   margin: 10px;
-  width: 20vh;
+  width: 100%;
   height: 20vh;
   grid-column: 1;
 }
@@ -103,7 +116,7 @@
   background-color: aliceblue;
   border-radius: 50px;
   margin: 10px;
-  width: 20vh;
+  width: 100%;
   height: 20vh;
   grid-column: 3;
 }
@@ -115,4 +128,36 @@
   padding-left: 30%;
   padding-top: 5%;
   
+}
+
+.remHP{
+  background-color: aliceblue;
+  border-radius: 50px;
+  margin: 10px;
+  width: 100%;
+  height: 15vh;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.HP{
+  background-color: aliceblue;
+  border-radius: 50px;
+  margin: 10px;
+  width: 50%;
+  height: 15vh;
+  grid-column: 2;
+  grid-row: 1;
+  font-size: 100px;
+  text-align: center;
+}
+
+.addHP{
+  background-color: aliceblue;
+  border-radius: 50px;
+  margin: 10px;
+  width: 100%;
+  height: 15vh;
+  grid-column: 3;
+  grid-row: 1;
 }
