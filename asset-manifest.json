@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/UniversusTracker/static/css/main.e9a28134.css",
-    "main.js": "/UniversusTracker/static/js/main.fde6acb1.js",
+    "main.css": "/UniversusTracker/static/css/main.b26621a2.css",
+    "main.js": "/UniversusTracker/static/js/main.1a871f7a.js",
     "static/js/787.4a68dd58.chunk.js": "/UniversusTracker/static/js/787.4a68dd58.chunk.js",
     "static/media/DMG.png": "/UniversusTracker/static/media/DMG.8a5bfbc0f7029d8e5be2.png",
     "static/media/High.png": "/UniversusTracker/static/media/High.32aecd7f8e3862842ba7.png",
     "index.html": "/UniversusTracker/index.html",
-    "main.e9a28134.css.map": "/UniversusTracker/static/css/main.e9a28134.css.map",
-    "main.fde6acb1.js.map": "/UniversusTracker/static/js/main.fde6acb1.js.map",
+    "main.b26621a2.css.map": "/UniversusTracker/static/css/main.b26621a2.css.map",
+    "main.1a871f7a.js.map": "/UniversusTracker/static/js/main.1a871f7a.js.map",
     "787.4a68dd58.chunk.js.map": "/UniversusTracker/static/js/787.4a68dd58.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9a28134.css",
-    "static/js/main.fde6acb1.js"
+    "static/css/main.b26621a2.css",
+    "static/js/main.1a871f7a.js"
   ]
 }
