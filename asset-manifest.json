@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/UniversusTracker/static/css/main.1410421d.css",
+    "main.js": "/UniversusTracker/static/js/main.fde6acb1.js",
+    "static/js/787.4a68dd58.chunk.js": "/UniversusTracker/static/js/787.4a68dd58.chunk.js",
+    "static/media/DMG.png": "/UniversusTracker/static/media/DMG.8a5bfbc0f7029d8e5be2.png",
+    "static/media/High.png": "/UniversusTracker/static/media/High.32aecd7f8e3862842ba7.png",
+    "index.html": "/UniversusTracker/index.html",
+    "main.1410421d.css.map": "/UniversusTracker/static/css/main.1410421d.css.map",
+    "main.fde6acb1.js.map": "/UniversusTracker/static/js/main.fde6acb1.js.map",
+    "787.4a68dd58.chunk.js.map": "/UniversusTracker/static/js/787.4a68dd58.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1410421d.css",
+    "static/js/main.fde6acb1.js"
+  ]
+}
