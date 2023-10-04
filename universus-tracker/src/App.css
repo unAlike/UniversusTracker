@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(165, 165, 165);
+  margin: 0;
+  padding: 0;
+}
+
+.main{
+  background-color: red;
+  height: 30%;
+  margin: 0;
+}
+
+.topDiv{
+  background-color: red;
+  height: 20vh;
+  margin: 0;
+}
+.midDiv{
+  background-color: rgb(0, 0, 0);
+  height: 60vh;
+  margin: 0;
+  display: grid;
+  justify-items: center;
+}
+.botDiv{
+  background-color: rgb(47, 0, 255);
+  height: 20vh;
+  margin: 0;
+}
+
+.minusSpeed{
+  background-color: aliceblue;
+  border-radius: 50px;
+  margin: 10px;
+  width: 20vh;
+  height: 20vh;
+  grid-column: 1;
+}
+
+.Speed{
+  background-image: url("../public/High.png");
+  background-size: 30vh;
+  height: 30vh;
+  width: 30vh;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 80px;
+  grid-column: 2;
+}
+.plusSpeed{
+  background-color: aliceblue;
+  border-radius: 50px;
+  margin: 10px;
+  width: 20vh;
+  height: 20vh;
+  grid-column: 3;
+}
+
+.minusDMG{
+  background-color: aliceblue;
+  border-radius: 50px;
+  margin: 10px;
+  width: 20vh;
+  height: 20vh;
+  grid-column: 1;
+}
+
+.DMG{
+  background-image: url("../public/DMG.png");
+  background-size: 30vh;
+  height: 30vh;
+  width: 30vh;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 80px;
+}
+
+.dmgNum{
+  height: max-content;
+  margin-top: 25%;
+  text-align: center;
+  padding-left: 30px;
+  
+}
+
+.plusDMG{
+  background-color: aliceblue;
+  border-radius: 50px;
+  margin: 10px;
+  width: 20vh;
+  height: 20vh;
+  grid-column: 3;
+}
+
+.speedNum{
+  height: max-content;
+  margin-top: 25%;
+  text-align: left;
+  padding-left: 30%;
+  padding-top: 5%;
+  
+}
