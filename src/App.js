@@ -1,14 +1,16 @@
 
 import { useState } from 'react';
 import './App.css';
-
-
+import HIGH from './High.png'
+import MID from './Mid.png'
+import BOT from './Low.png'
 
 function App() {
   const [DMG, setDMG] = useState(0);
   const [speed, setSpeed] = useState(0);
   const [p1, setP1] = useState(0);
   const [p2, setP2] = useState(0);
+  const [img, setImg] = useState("");
 
   const addDmg = () => {
     setDMG((prev) => prev + 1);
@@ -36,6 +38,14 @@ function App() {
   const remP2 = () => {
     setP2((prev) => prev-1);
   }
+  const changeSpeed = () => {
+    setImg((prev) => {
+      if (prev === HIGH) return MID;
+      else if(prev === MID) return BOT;
+      else return HIGH
+    });
+  }
+
 
   return (
     <div className="AppHeader">
@@ -50,10 +60,12 @@ function App() {
             <div className="minusSpeed"  onClick={remSpeed}>
 
             </div>
-            <div className="Speed">
+            <div className="Speed" onClick={changeSpeed}>
+              <img src={img} alt='' style={{height:"75%"}}></img>
               <div className="speedNum">
                 {speed}
               </div>
+              
             </div>
             <div className="plusSpeed"  onClick={addSpeed}>
 

@@ -55,8 +55,10 @@
 }
 
 .minusSpeed{
-  background-color: aliceblue;
-  border-radius: 50px;
+  background-image: url("../public/Minus.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
   margin: 10px;
   width: 100%;
   height: 20vh;
@@ -64,7 +66,6 @@
 }
 
 .Speed{
-  background-image: url("../public/High.png");
   background-size: 20vh;
   background-position: 20%;
   background-position-x: center;
@@ -74,10 +75,13 @@
   text-align: center;
   font-size: 80px;
   grid-column: 2;
+  z-index: 10;
 }
 .plusSpeed{
-  background-color: aliceblue;
-  border-radius: 50px;
+  background-image: url("../public/Plus.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
   margin: 10px;
   width: 100%;
   margin: 10px;
@@ -86,8 +90,10 @@
 }
 
 .minusDMG{
-  background-color: aliceblue;
-  border-radius: 50px;
+  background-image: url("../public/Minus.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
   margin: 10px;
   width: 100%;
   height: 20vh;
@@ -109,12 +115,14 @@
   margin-top: 25%;
   text-align: center;
   padding-left: 30px;
-  
+  user-select: none;
 }
 
 .plusDMG{
-  background-color: aliceblue;
-  border-radius: 50px;
+  background-image: url("../public/Plus.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
   margin: 10px;
   width: 100%;
   height: 20vh;
@@ -122,17 +130,22 @@
 }
 
 .speedNum{
-  height: max-content;
-  margin-top: 25%;
-  text-align: left;
-  padding-left: 30%;
-  padding-top: 5%;
-  
+  height: auto;
+  margin-top: 0%;
+  margin-bottom: 50%;
+  margin-left: 10%;
+  text-align: center;
+  user-select: none;
+  position: absolute;
+  left: 35%;
+  top: 25%;
 }
 
 .remHP{
-  background-color: aliceblue;
-  border-radius: 50px;
+  background-image: url("../public/Minus.png");
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: 50%;
   margin: 10px;
   width: 100%;
   height: 15vh;
@@ -150,11 +163,14 @@
   grid-row: 1;
   font-size: 100px;
   text-align: center;
+  user-select: none;
 }
 
 .addHP{
-  background-color: aliceblue;
-  border-radius: 50px;
+  background-image: url("../public/Plus.png");
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: 50%;
   margin: 10px;
   width: 100%;
   height: 15vh;
